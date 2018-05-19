@@ -3,7 +3,7 @@ import tweepy
 import json
 from pymongo import MongoClient
 
-MONGO_HOST = 'mongodb://localh ost/usa_db'  # assuming you have mongoDB installed locally
+MONGO_HOST = 'mongodb://localhost/usa_db'  # assuming you have mongoDB installed locally
 # and a database called 'usa_db'
 
 Location = [-125,25,-65,48]
